@@ -1,0 +1,26 @@
+/* CSS declarations go here */
+
+.user_avatar{
+	min-height:100px;
+	text-align: center;
+
+}
+.avatar_img{
+	text-align: left;
+	height: 50px;
+  -webkit-clip-path: circle(25px at center);
+        	clip-path: circle(25px at center);
+}
+
+form {
+	margin: 5px;
+}
+
+.message {
+	padding: 5px;
+	border-bottom: 1px solid hsl(0, 0%, 70%);
+}
+
+.username {
+	font-weight: bold;
+}
